@@ -108,16 +108,16 @@
       <nav class="navbar">
         <ul class="navbar-list">
           <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link="about">About</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link="resume">Resume</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" data-nav-link="contact">Contact</button>
           </li>
         </ul>
       </nav>
@@ -351,6 +351,30 @@
 
   <!-- custom js link -->
   <script src="./assets/js/script.js"></script>
+
+  <!-- JavaScript for Navigation -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navLinks = document.querySelectorAll(".navbar-link");
+      const sections = document.querySelectorAll("article");
+
+      navLinks.forEach(link => {
+        link.addEventListener("click", function () {
+          // Remove active class from all links
+          navLinks.forEach(link => link.classList.remove("active"));
+          // Add active class to the clicked link
+          this.classList.add("active");
+
+          // Hide all sections
+          sections.forEach(section => section.classList.remove("active"));
+
+          // Show the clicked section
+          const activeSection = document.querySelector(`article[data-page="${this.getAttribute("data-nav-link")}"]`);
+          activeSection.classList.add("active");
+        });
+      });
+    });
+  </script>
 
   <!-- ionicon link -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
