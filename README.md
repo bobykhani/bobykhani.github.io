@@ -1,37 +1,135 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Babak H Kargar - Data Engineer & Scientist</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
 
-You can use the [editor on GitHub](https://github.com/bobykhani/bobykhani.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    section {
+      padding: 2rem;
+      margin: 1rem 0;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
 
-### Markdown
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+    }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
-```markdown
-Syntax highlighted code block
+    li {
+      padding: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
 
-# Header 1
-## Header 2
-### Header 3
+  <!-- Header Section -->
+  <header>
+    <h1>Babak H Kargar</h1>
+    <p>Data Engineer & Scientist</p>
+    <p><a href="mailto:babak.h.kargar@gmail.com" style="color: #fff;">babak.h.kargar@gmail.com</a> | <a href="https://linkedin.com/in/bobykhani" target="_blank" style="color: #fff;">LinkedIn</a></p>
+  </header>
 
-- Bulleted
-- List
+  <!-- Profile Section -->
+  <section id="profile">
+    <h2>Profile</h2>
+    <p>Experienced and highly motivated Data Engineer/Scientist with a solid background in software engineering and AI. Over three years of experience in data roles, including analysis, science, and engineering. Skilled in developing data pipelines, AI-driven models, and leveraging cloud platforms like AWS and Azure to drive data solutions and operational efficiency.</p>
+  </section>
 
-1. Numbered
-2. List
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="job">
+      <h3>The Data Cooks, Amsterdam, Netherlands</h3>
+      <p><strong>Data Engineer/Scientist</strong> | January 2022 – July 2024</p>
+      <ul>
+        <li>Leveraged AI on large datasets using Python, Azure, and Databricks.</li>
+        <li>Developed data marts and pipelines using SQL and Azure, enhancing data accessibility.</li>
+        <li>Created AI-driven models for product recommendations and customer segmentation, improving targeted marketing by 20%.</li>
+        <li>Automated data pipelines with Azure Data Factory, reducing processing time by 30%.</li>
+      </ul>
+    </div>
+    <!-- Add more job experiences as needed -->
+  </section>
 
-**Bold** and _Italic_ and `Code` text
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education">
+      <h3>Vrije Universiteit van Amsterdam, Netherlands</h3>
+      <p><strong>Researcher in Evolutionary Robotics</strong> | 2020 – 2023</p>
+    </div>
+    <div class="education">
+      <h3>Azad University of Tehran, Iran</h3>
+      <p><strong>Master’s Degree in Artificial Intelligence and Robotics</strong> | 2016 – 2019</p>
+    </div>
+    <!-- Add more education entries as needed -->
+  </section>
 
-[Link](url) and ![Image](src)
-```
+  <!-- Publications Section -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li>The effect of selecting for different behavioral traits on the evolved gaits of modular robots, ALIFE 2021</li>
+      <li>A Multi-Brain Approach for Multi-Tasking in Evolvable Robots, EasyChair</li>
+      <li>Exploring proprioceptive feedback in the evolution of modular robots, PPSN 2024 (Accepted)</li>
+    </ul>
+  </section>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming: Python, R, C#</li>
+      <li>Database: SQL Server, MySQL, MongoDB</li>
+      <li>Cloud Platforms: Azure, AWS</li>
+      <li>BI/DevOps Tools: PowerBI, Docker, Git</li>
+      <li>Project Management: Agile, Kanban</li>
+      <!-- Add more skills if necessary -->
+    </ul>
+  </section>
 
-### Jekyll Themes
+  <!-- Languages Section -->
+  <section id="languages">
+    <h2>Languages</h2>
+    <p>Persian: Native</p>
+    <p>English: Professional working proficiency</p>
+  </section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bobykhani/bobykhani.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  <!-- References Section -->
+  <section id="references">
+    <h2>References</h2>
+    <p>Available upon request</p>
+  </section>
 
-### Support or Contact
+  <!-- Footer Section -->
+  <footer>
+    <p>Feel free to <a href="mailto:babak.h.kargar@gmail.com" style="color: #fff;">reach out</a> or connect with me on <a href="https://linkedin.com/in/bobykhani" target="_blank" style="color: #fff;">LinkedIn</a> for opportunities or collaborations.</p>
+  </footer>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
