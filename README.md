@@ -6,33 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Babak H Kargar - Data Engineer & Scientist</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background-color: #f4f4f4;
+    /* Basic Reset */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f0f2f5;
+      padding: 20px;
     }
 
     header, footer {
-      background-color: #333;
-      color: #fff;
+      background-color: #282c34;
+      color: #ffffff;
       text-align: center;
-      padding: 1rem 0;
+      padding: 20px 0;
+    }
+
+    header h1, footer p {
+      margin: 0;
     }
 
     section {
-      padding: 2rem;
-      margin: 1rem 0;
-      background-color: #fff;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
       border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
-      border-bottom: 2px solid #333;
-      padding-bottom: 0.5rem;
+      margin-bottom: 15px;
+      color: #004080;
+      border-bottom: 3px solid #f0f2f5;
+      padding-bottom: 10px;
     }
 
     ul {
@@ -41,7 +54,40 @@
     }
 
     li {
-      padding: 0.5rem 0;
+      padding: 8px 0;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #004080;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .job, .education {
+      margin-bottom: 20px;
+    }
+
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      section {
+        padding: 15px;
+      }
     }
   </style>
 </head>
@@ -51,7 +97,7 @@
   <header>
     <h1>Babak H Kargar</h1>
     <p>Data Engineer & Scientist</p>
-    <p><a href="mailto:babak.h.kargar@gmail.com" style="color: #fff;">babak.h.kargar@gmail.com</a> | <a href="https://linkedin.com/in/bobykhani" target="_blank" style="color: #fff;">LinkedIn</a></p>
+    <p><a href="mailto:babak.h.kargar@gmail.com" style="color: #ffffff;">babak.h.kargar@gmail.com</a> | <a href="https://linkedin.com/in/bobykhani" target="_blank" style="color: #ffffff;">LinkedIn</a></p>
   </header>
 
   <!-- Profile Section -->
@@ -128,7 +174,7 @@
 
   <!-- Footer Section -->
   <footer>
-    <p>Feel free to <a href="mailto:babak.h.kargar@gmail.com" style="color: #fff;">reach out</a> or connect with me on <a href="https://linkedin.com/in/bobykhani" target="_blank" style="color: #fff;">LinkedIn</a> for opportunities or collaborations.</p>
+    <p>Feel free to <a href="mailto:babak.h.kargar@gmail.com">reach out</a> or connect with me on <a href="https://linkedin.com/in/bobykhani" target="_blank">LinkedIn</a> for opportunities or collaborations.</p>
   </footer>
 
 </body>
