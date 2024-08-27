@@ -20,14 +20,19 @@
   
   <!-- Inline CSS to set text color to white -->
   <style>
-    .research-text, .thesis {
+    .research-text, .thesis, .papers-section {
       color: white;
     }
     /* CSS to center the image */
     .image-container {
       text-align: center; /* Centers the image */
     }
-
+    .papers-section {
+      margin-top: 20px; /* Adds some space above the papers section */
+    }
+    .paper-item {
+      margin-bottom: 10px; /* Adds space between each paper item */
+    }
   </style>
 
 </head>
@@ -43,11 +48,11 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Babak H Kargar" width="80">
+          <img src="./assets/images/pic.jpeg" alt="Babak H Kargar" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Babak H Kargar">Babak H Kargar</h1>
+          <h1 class="name" title="Babak Hosseinkhani Kargar">Babak H Kargar</h1>
           <p class="title">Data Engineer & Scientist</p>
         </div>
 
@@ -130,7 +135,7 @@
             <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link="research">Academic Research</button>
+            <button class="navbar-link" data-nav-link="research">Academic Background</button>
           </li>
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link="contact">Contact</button>
@@ -339,10 +344,10 @@
         </section>
       </article>
 
-      <!-- #ACADEMIC RESEARCH -->
+      <!-- #ACADEMIC BACKGROUND -->
       <article class="research" data-page="research">
         <header>
-          <h2 class="h2 article-title">Academic Research</h2>
+          <h2 class="h2 article-title">Academic Background</h2>
         </header>
 
         <!-- Vrije Universiteit Research -->
@@ -351,14 +356,25 @@
           <p>
             During my research at Vrije Universiteit, I explored how natural life demonstrates remarkable complexity beyond genetic encoding. This project studied a novel robot DNA structure that provides robots with lifetime phenotypic plasticity, allowing them to adapt to environmental changes. By developing a genotype-phenotype mapping, we enabled robots to modify their behaviors in response to their surroundings, demonstrating increased evolutionary efficiency and responsiveness to environmental conditions.
           </p>
-          <!-- <img src="./assets/images/gecko.jpg" alt="Vrije Universiteit Research" width="40%"> -->
-          <!-- Image directly without needing a container -->
-          <!-- <img src="./assets/images/gecko.jpg" alt="Vrije Universiteit Research" width="40%" class="centered-image"> -->
-          <!-- Parent container for centering the image -->
           <div class="image-container">
             <img src="./assets/images/gecko.jpg" alt="Vrije Universiteit Research" width="40%">
           </div>
+        </section>
 
+        <!-- List of Papers -->
+        <section class="papers-section">
+          <h3 class="h3">Selected Publications</h3>
+          <ul>
+            <li class="paper-item">
+              <strong>Paper 1:</strong> "Caps Matting: A Capsule Network Approach for Image Matting" - Explores a new capsule model with reduced trainable parameters, achieving significant results in image matting.
+            </li>
+            <li class="paper-item">
+              <strong>Paper 2:</strong> "Phenotypic Plasticity in Robotics: Enhancing Adaptive Behaviors through Environmental Interactions" - Discusses the implementation of a novel robot DNA structure for enhanced environmental adaptability.
+            </li>
+            <li class="paper-item">
+              <strong>Paper 3:</strong> "Evolving Robot DNA: Genotype-Phenotype Mappings for Adaptive Robot Behaviors" - Investigates the use of genotype-phenotype mappings to enable robots to adapt their behaviors dynamically.
+            </li>
+          </ul>
         </section>
 
         <!-- Master's Thesis -->
@@ -368,9 +384,9 @@
             My master's thesis titled "Caps Matting" explores a novel deep learning model using capsule networks for image matting. This model addresses the complex problem of accurately separating foreground elements in an image from the background, a technique widely used in filmmaking and image editing. The proposed model, based on capsule networks, demonstrates significant improvements over traditional methods in preserving spatial hierarchies and performing accurate segmentation.
           </p>
           <div class="image-container">
-            <img src="./assets/images/matting.png" alt="Caps Matting Thesis" width="40%" class="centered-image">
+            <img src="./assets/images/matting.png" alt="Caps Matting Thesis" width="40%">
           </div>
-          </section>
+        </section>
       </article>
 
       <!-- #CONTACT -->
