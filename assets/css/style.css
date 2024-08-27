@@ -1013,7 +1013,7 @@ main {
 .project-category { margin-left: 10px; }
 
 .project-title {
-  color: var(--light-gray-70);
+  color: var(--white-2);
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
   text-transform: capitalize;
@@ -1021,7 +1021,7 @@ main {
 }
 
 .project-category {
-  color: var(--light-gray-70);
+  color: var(--white-2);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
