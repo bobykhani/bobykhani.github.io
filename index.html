@@ -23,6 +23,11 @@
     .research-text, .thesis {
       color: white;
     }
+    /* CSS to center the image */
+    .image-container {
+      text-align: center; /* Centers the image */
+    }
+
   </style>
 
 </head>
@@ -348,7 +353,11 @@
           </p>
           <!-- <img src="./assets/images/gecko.jpg" alt="Vrije Universiteit Research" width="40%"> -->
           <!-- Image directly without needing a container -->
-          <img src="./assets/images/gecko.jpg" alt="Vrije Universiteit Research" width="40%" class="centered-image">
+          <!-- <img src="./assets/images/gecko.jpg" alt="Vrije Universiteit Research" width="40%" class="centered-image"> -->
+          <!-- Parent container for centering the image -->
+          <div class="image-container">
+            <img src="./assets/images/gecko.jpg" alt="Vrije Universiteit Research" width="40%">
+          </div>
 
         </section>
 
@@ -358,8 +367,10 @@
           <p>
             My master's thesis titled "Caps Matting" explores a novel deep learning model using capsule networks for image matting. This model addresses the complex problem of accurately separating foreground elements in an image from the background, a technique widely used in filmmaking and image editing. The proposed model, based on capsule networks, demonstrates significant improvements over traditional methods in preserving spatial hierarchies and performing accurate segmentation.
           </p>
-          <img src="./assets/images/matting.png" alt="Caps Matting Thesis" width="40%" class="centered-image">
-        </section>
+          <div class="image-container">
+            <img src="./assets/images/matting.png" alt="Caps Matting Thesis" width="40%" class="centered-image">
+          </div>
+          </section>
       </article>
 
       <!-- #CONTACT -->
