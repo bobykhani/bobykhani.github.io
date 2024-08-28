@@ -894,7 +894,6 @@ main {
   border-radius: 14px;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
-  color: var(--white-1);
 }
 
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
@@ -912,7 +911,6 @@ main {
   visibility: hidden;
   pointer-events: none;
   transition: 0.15s ease-in-out;
-  color: var(--white-1);
 }
 
 .filter-select.active + .select-list {
@@ -1015,7 +1013,8 @@ main {
 .project-category { margin-left: 10px; }
 
 .project-title {
-  color: var(--white-2);
+  color: white;
+  /* color: var(--white-2); */
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
   text-transform: capitalize;
@@ -1023,7 +1022,9 @@ main {
 }
 
 .project-category {
-  color: var(--light-gray-70);
+  /* color: var(--light-gray-70); */
+  color: white; /* Changed to white */
+
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
