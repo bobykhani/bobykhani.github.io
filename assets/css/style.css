@@ -1021,7 +1021,7 @@ main {
 }
 
 .project-category {
-  color: var(--white-2);
+  color: var(--light-gray-70);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
